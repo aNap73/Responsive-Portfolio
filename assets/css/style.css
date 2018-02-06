@@ -1,0 +1,247 @@
+*{
+  font-family: Arial, "Helvetica Neue", Arial, Helvetica, sans-serif, sans-serif;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-image: url('../images/cork-wallet.png');
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: grey;
+  border-top: #4aaaa5 solid 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content{
+ 
+}
+img {
+  width: 65px;
+  height: 45px;
+}
+input{
+  width:90%;
+}
+.col {
+  float:left;
+}
+.bigimg {
+  width: 320px;
+  height: 240px;
+}
+.portimg{
+  width: 260px;
+  height: 140px;
+}
+
+h1, h2, h3, .logo {
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif, Times, "Times New Roman", serif;
+  color: #4aaaa5;
+}
+h1,h2,h3 {
+  padding: 3% 1%;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.2em;
+}
+p{
+  margin-bottom: 8px;
+}
+a {
+  color:grey;
+  text-decoration: none;
+}
+a:hover{
+  color:#4aaaa5;
+}
+.main-content {
+  margin: 0;
+  border:none;
+  width: 893.25px;
+  
+  float: left;
+  padding: 20px;
+  line-height: 1.5em;
+  background-color: #ffffff;
+  margin:40px;
+
+
+}
+.contain-connect {
+  width: 220px;
+  float:right;
+  padding: 15px;
+  line-height: 1.5em;
+  background-color: #ffffff;
+  margin:40px;
+
+}
+.logo {
+  padding:15px;
+  color: #ffffff;
+  font-size: 2.5em;
+  background-color: #4aaaa5;
+  float: left;
+}
+.menu {
+  color:grey;
+  float: right;
+  text-align: center;
+  padding: 25px;
+  
+}
+.navbar {
+  border-bottom: grey solid 1px;
+}
+.AboutMe{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+.Portfolio{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+.ContactMe{
+  padding-top:20px;
+  border-top: grey solid 1px;
+}
+
+.navbar::after {  
+    content:"";
+    display: block;
+    clear:both;
+  }
+
+  
+  .foot{
+   
+    background-color: grey;
+    text-align: center;
+    padding:1.8%;
+    
+    border-top: #4aaaa5 solid 10px;
+  }
+ .headshot{
+   float:left;
+   margin: 8px;
+ }
+ .ContactText {
+  height:100px;   
+  width: 90%; 
+   }
+   .ContactSub{
+   color:#ffffff;
+   background-color:#4aaaa5;
+   padding: 1% 3%;
+   margin: 50px 0; 
+
+   }
+   .AboutMeText{
+     text-align:justify;
+   }
+   .inline-connect-icons{
+     border-top: grey solid 1px;
+     padding: 2% 3%;
+   }
+ .headshot::after {  
+  content:"";
+  display: block;
+  clear:both;}
+  .content::after {  
+    content:"";
+    display: block;
+    clear:both;
+  }
+  .row::after 
+  {    
+    content:"";
+    display: block;
+    clear:both;
+  }
+
+
+@media screen and (max-width:980px) {
+  
+  h1, h2, h3, .logo {
+    font-size: 1.8em;
+  }
+  .logo{
+    margin-left:10%;  
+    padding-bottom: 20px;
+    font-size: 1.86em;
+  }
+  .main-content {
+    Width: 36%;
+    margin-left:10%;
+  } 
+  .contain-connect{
+    margin: 40px 70px 40px 10px;
+  }
+  img {
+    width: 65px;
+    height: 45px;
+    
+  }
+  
+  .bigimg {
+    width: 264px;
+    height: 198px;
+    display: inline-block;
+  }
+  .portimg{
+    width: 260px;
+    height: 140px;
+  }
+     
+}
+@media screen and (max-width:768px) {
+  .main-content {
+    Width: 83%;
+    margin-left:3%;
+  } 
+  .contain-connect{
+    
+    position: relative;
+    Width: 84%;
+    float: left;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    margin-left: 18px;
+    
+  
+  }
+  .bigimg{
+    display:inline;
+  }
+  .logo{
+    margin-left:2%;  
+    padding-bottom: 20px;
+    font-size: 1.86em;
+  }
+  .menu {
+    color:grey;
+    float: left;
+    text-align: center;
+    padding: 25px;
+    margin-left:0;
+    
+  }
+}  
