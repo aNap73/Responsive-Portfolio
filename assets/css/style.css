@@ -38,8 +38,9 @@ input{
 .col {
   float:left;
 }
+
 .bigimg {
-  width: 320px;
+  width: 360px;
   height: 240px;
 }
 .portimg{
@@ -177,30 +178,59 @@ a:hover{
     clear:both;
   }
 
-
-@media screen and (max-width:980px) {
-  
   h1, h2, h3, .logo {
     font-size: 1.8em;
   }
   .logo{
-    margin-left:87px; 
+    margin-left:130px; 
     padding-bottom: 20px;
     font-size: 1.86em;
   }
   .main-content {
-    Width: 36%;
-    margin-left:10%;
+    Width: 38%;
+    margin-left:130px;
   } 
   .contain-connect{
-    margin: 40px 70px 40px 10px;
+    position: relative;
+    left: -30px;
+    margin: 40px 50px 40px 70px;
   }
+  
+@media screen and (max-width:980px) {
+  .logo{
+    position: relative;    
+    padding-left:18px;  
+    padding-bottom: 20px;
+    font-size: 1.86em;
+    left: -100px;
+    
+    
+  } 
+  .main-content {
+    Width: 83%;
+    margin-left:3%;
+    
+  } 
+  .contain-connect{
+    
+    position: relative;
+    Width: 84%;
+    float: left;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    margin-left: 18px;
+    
+    left: 10px;
+  
+  }
+  
   img {
     width: 65px;
     height: 45px;
     
   }
-  
+    
   .bigimg {
     width: 264px;
     height: 198px;
@@ -213,30 +243,45 @@ a:hover{
      
 }
 @media screen and (max-width:768px) {
+  html {width:100%}
+  .portimg{
+    width: 230px;
+    height: 110px;
+  }
   .main-content {
     Width: 83%;
-    margin-left:3%;
-  } 
-  .contain-connect{
+    margin-left:18px;
     
+  }
+  .content, .header, .navbar{
+    width:100%;
+  }
+  .logo{
     position: relative;
+    left: 0px;
+    width:95.5%;
+    margin-left:0px;  
+    padding-bottom: 20px;
+    font-size: 1.86em;
+    display: inline-block;
+    
+  } 
+  
+  .contain-connect{   
+  
+    position: relative;
+    left: -30px;
     Width: 84%;
     float: left;
     padding: 15px;
     line-height: 1.5em;
     background-color: #ffffff;
-    margin-left: 18px;
-    
-  
+    margin-left: 50px;
   }
   .bigimg{
     display:inline;
   }
-  .logo{
-    margin-left:2%;  
-    padding-bottom: 20px;
-    font-size: 1.86em;
-  }
+
   .menu {
     color:grey;
     float: left;
