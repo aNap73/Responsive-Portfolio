@@ -109,6 +109,7 @@ a:hover{
 }
 .navbar {
   border-bottom: grey solid 1px;
+  background-color: #fff;
 }
 .AboutMe{
   padding-top:20px;
