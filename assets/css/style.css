@@ -28,10 +28,7 @@ body {
 .content{
  
 }
-img {
-  width: 65px;
-  height: 45px;
-}
+
 input{
   width:90%;
 }
@@ -39,14 +36,6 @@ input{
   float:left;
 }
 
-.bigimg {
-  width: 360px;
-  height: 240px;
-}
-.portimg{
-  width: 260px;
-  height: 140px;
-}
 
 h1, h2, h3, .logo {
   font-size: 2em;
@@ -75,18 +64,18 @@ a:hover{
 .main-content {
   margin: 0;
   border:none;
-  width: 893.25px;
+  width: 23%;
   
   float: left;
   padding: 20px;
   line-height: 1.5em;
   background-color: #ffffff;
-  margin:40px;
+  margin: 40px;
 
 
 }
 .contain-connect {
-  width: 220px;
+  width: 22%;
   float:right;
   padding: 15px;
   line-height: 1.5em;
@@ -108,11 +97,12 @@ a:hover{
   padding: 25px;
   
 }
-#Contact>a{
+#Contact{
   
-  margin-right:40px;
+  margin-right:8%;
 
 }
+
 .navbar {
   border-bottom: grey solid 1px;
   background-color: #fff;
@@ -187,30 +177,101 @@ a:hover{
     font-size: 1.8em;
   }
   .logo{
-    margin-left:130px; 
+    Width: 40.6%;
+    margin-left:10%; 
     padding-bottom: 20px;
     font-size: 1.86em;
   }
   .main-content {
-    Width: 38%;
-    margin-left:130px;
+    Width: 36%;
+    margin-left:10%;
+    padding-right:5%;
   } 
   .contain-connect{
     position: relative;
-    left: -30px;
-    margin: 40px 50px 40px 70px;
+    left: 0px;
+    margin-right:10%;
+    /*margin: 40px 50px 40px 30px;*/
   }
-  
+  .row  {
+    margin-left:3%;
+  }
+  img {
+    width: 65px;
+    height: 45px;
+  }
+  .bigimg {
+    width: 360px;
+    height: 240px;
+  }
+  .portimg{
+    width: 240px;
+    height: 180px;
+    /*width: 100%;
+    height: 100%;*/
+  }
 @media screen and (max-width:980px) {
+  
+  .bigimg {
+    width: 264px;
+    height: 198px;
+} 
+#Contact {
+  width:13%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+}
+@media screen and (max-width:768px) {
+/*
+  #Contact {
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  #Portfolio{
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  #About{
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
   .logo{
-    position: relative;    
-    padding-left:18px;  
+    position: relative;
+    left: 0px;
+    width: 95.6%;
+    margin-left:0px;  
     padding-bottom: 20px;
     font-size: 1.86em;
-    left: -130px;
+    display: inline-block;
     
-    width: 100%;
-  } 
+  }
+  .menu {
+    color:grey;
+    float: right;
+    text-align: center;
+    padding: 25px 0;
+    margin-left:0;
+    
+  }
+ */
+ .logo{
+  position: relative;
+  left: 0px;
+  
+  margin-left:0px;  
+  padding-bottom: 20px;
+  font-size: 1.86em;
+  display: inline-block;
+  
+}
   .main-content {
     Width: 83%;
     margin-left:3%;
@@ -224,30 +285,24 @@ a:hover{
     padding: 15px;
     line-height: 1.5em;
     background-color: #ffffff;
-    margin-left: 18px;
+    margin-left: 3%;
     
-    left: 10px;
+    left: 20px;
   
   }
   
-  img {
-    width: 65px;
-    height: 45px;
-    
-  }
+  
     
   .bigimg {
     width: 264px;
     height: 198px;
     display: inline-block;
   }
-  .portimg{
-    width: 260px;
-    height: 140px;
-  }
-     
-}
-@media screen and (max-width:768px) {
+  
+
+
+
+
   html {width:100%}
   header {
     width: 100%;
@@ -255,8 +310,15 @@ a:hover{
     border: 0;
   }
   .portimg{
-    width: 230px;
-    height: 110px;
+    width: 297.6px;
+    height: 248.6px;
+    /*width: 80%;
+    height: 80%;*/
+    
+    
+  }
+  .row{
+    margin-left:3%;
   }
   .main-content {
     Width: 83%;
@@ -265,6 +327,47 @@ a:hover{
   }
   .content, .header, .navbar{
     width:100%;
+  }
+   
+  
+  .contain-connect{   
+  
+    left: 0;
+    margin-left:18px;
+    width:86.6%;
+    /*position: relative;
+    left: -30px;
+    Width: 84%;
+    float: right;
+    padding: 15px;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    margin-left: 50px;*/
+  }
+  .bigimg{
+    display:inline;
+  }
+
+  
+}  
+@media screen and (max-width:768px) {
+  #Contact {
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  #Portfolio{
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  #About{
+    width:33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
   }
   .logo{
     position: relative;
@@ -275,29 +378,13 @@ a:hover{
     font-size: 1.86em;
     display: inline-block;
     
-  } 
-  
-  .contain-connect{   
-  
-    position: relative;
-    left: -30px;
-    Width: 84%;
-    float: right;
-    padding: 15px;
-    line-height: 1.5em;
-    background-color: #ffffff;
-    margin-left: 50px;
   }
-  .bigimg{
-    display:inline;
-  }
-
   .menu {
     color:grey;
     float: right;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0;
     margin-left:0;
     
   }
-}  
+}
