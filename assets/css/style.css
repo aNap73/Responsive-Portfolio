@@ -238,7 +238,7 @@ a:hover{
   width:13%;
   padding-left: 0;
   padding-right: 0;
-  margin: 0 10% 0 0;
+  margin: 0 8% 0 0;
 }
 }
 @media screen and (max-width:768px) {
@@ -317,15 +317,16 @@ a:hover{
   
 }  
 @media screen and (max-width:768px) {
+  .navbar{width:105%}
   #Contact {
     width:33.3%;
     padding-left: 0;
     padding-right: 0;
-    margin-right: 14%;
+    margin-right: 0;
     
   }
   #Portfolio{
-    width:33%.3;
+    width:33.3%;
     padding-left: 0;
     padding-right: 0;
     margin: 0;
