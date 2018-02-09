@@ -239,6 +239,9 @@ a:hover{
     width: 264px;
     height: 198px;
 } 
+.portimg{
+  width:264px;
+}
 #Contact {
   width:13%;
   padding-left: 0;
@@ -248,22 +251,44 @@ a:hover{
 }
 @media screen and (max-width:768px) {
   .navbar{
-    width: 80%;
+    width: 105%;
+  }
+  #Contact {
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    
+  }
+  #Portfolio{
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+      }
+  #About{
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    
   }
   .logo{
   position: relative;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 20px;
+
   margin: 0 0 0 0;
-  width: 80%;  
-  
+  width: 100%;    
   font-size: 1.86em;
+  text-align: center;
   display: inline-block;
   
 }
 
   .main-content {
-    Width: 83%;
+    Width: 86%;
     margin-left:3%;
     
   } 
@@ -326,65 +351,3 @@ a:hover{
   
   
 }  
-@media screen and (max-width:768px) {
-  .navbar{width:105%}
-  #Contact {
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    
-  }
-  #Portfolio{
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-      }
-  #About{
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    
-  }
-  .logo{
-    position: relative;
-    left: 0px;
-    width: 100%;
-    margin-left:0px;  
-    padding-bottom: 20px;
-    font-size: 1.86em;
-    text-align: center;
-    display: inline-block;
-    
-  }
-  .menu {
-    color:grey;
-    float: right;
-    text-align: center;
-    padding: 25px 0px;
-    margin-left:0;
-    
-  }
-  .col>h3{
-    padding: 0;
-    position: relative;
-    
-    background-color: #4aaaa5;
-    color: white;
-  }
-  .main-content {
-    Width: 88%;
-    margin-left:18px;
-    margin-right: auto;
-  }
-  .contain-connect{   
-    
-    left: 0;
-    margin-left:18px;
-    width:88%;
-    margin-right: auto;
-  }
- 
-}
