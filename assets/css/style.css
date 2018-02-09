@@ -59,19 +59,7 @@ a {
 a:hover{
   color:#4aaaa5;
 }
-.main-content {
-  margin: 0;
-  border:none;
-  width: 23%;
-  
-  float: left;
-  padding: 20px;
-  line-height: 1.5em;
-  background-color: #ffffff;
-  margin: 40px;
 
-
-}
 
 .logo {
   padding:15px;
@@ -80,6 +68,7 @@ a:hover{
   background-color: #4aaaa5;
   float: left;
 }
+
 .menu {
   color:grey;
   float: right;
@@ -92,7 +81,36 @@ a:hover{
   margin-right:8%;
 
 }
+.main-content {
+  width: 46%;
+  float: left;  
+  border:none;
+  line-height: 1.5em;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left:5%;
+}
+  
+.contain-connect {
+    position: relative;
+    width: 33%;    
+    float:right;
+    border: none;    
+    line-height: 1.5em;
+    background-color: #ffffff;    
+    text-align: center;    
+        
+    padding: 27px 20px 20px 20px;
+    margin: 0;
+    margin-top: 20px;
+    margin-right:5%;
+  }
 
+  /*.contain-connect>h2{
+    padding: 15px;
+  }*/
 .AboutMe{
   padding-top:20px;
   border-top: grey solid 1px;
@@ -159,7 +177,7 @@ a:hover{
     font-size: 1.8em;
   }
   .logo{
-    width: 46%;
+    min-width: 35%;
     margin-left:5%; 
     padding-bottom: 20px;
     font-size: 1.86em;
@@ -173,36 +191,20 @@ a:hover{
       display: block;
       clear:both;
     }
-  .main-content {
-    /*width: 38%;*/
-    width: 46%;
-    margin:20px 0;
-    margin-left:5%;
-    padding:3px 15px 8px 15px;
-  }
-  .contain-connect {
-    position: relative;
   
-    width: 33%;
-    float:right;
-    padding: 15px;
-    line-height: 1.5em;
-    background-color: #ffffff;
-    margin:20px 0;
-    margin-right:5%;
-  } 
+   
   
     
     
     
     /*margin: 40px 50px 40px 30px;*/
-  }
-  .row  {
-    margin: 0 0 0 3%;
-  }
+  
+  
   img {
     width: 65px;
     height: 45px;
+    width: 85px;
+    height: 65px;
   }
   .bigimg {
     width: 360px;
@@ -215,8 +217,12 @@ a:hover{
     /*width: 100%;
     height: 100%;*/
   }
+  
   .col{
     margin: 1%;
+    padding: 0;
+    margin-left: 1%;
+    
   }
   .col>h3{
     padding: 0;
@@ -225,16 +231,8 @@ a:hover{
     background-color: #4aaaa5;
     color: white;
   }
-  .row{
-    padding: 0;
-    margin: 0;
-    
-  }
-  .col{
-    padding: 0;
-    margin-left: 1%;
-    
-  }
+  
+
   .activepage>a{
     font-weight: 800; 
   }
@@ -253,6 +251,13 @@ button{
   font-size: 1.5em;
 }
 
+.row{
+  margin: 0 auto 0 auto;
+  padding: 0;
+  margin: 0;
+  
+ 
+}
 @media screen and (max-width:980px) {
 
   .bigimg {
@@ -274,40 +279,6 @@ button{
   .navbar{
     width: 105%;
   }
-  #Contact {
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    
-  }
-  #Portfolio{
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-      }
-  #About{
-    width:33.3%;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    
-  }
-  .logo{
-  position: relative;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 20px;
-
-  margin: 0 0 0 0;
-  width: 100%;    
-  font-size: 1.86em;
-  text-align: center;
-  display: inline-block;
-  
-}
-
   .main-content {
     Width: 86%;
     margin-left:3%;
@@ -316,9 +287,9 @@ button{
   .contain-connect{
     
     position: relative;
-    Width: 83%;
+    Width: 86%;
     float: left;
-    padding: 15px;
+    padding: 15px 24px 15px 15px;
     line-height: 1.5em;
     background-color: #ffffff;
     margin-left: 3%;
@@ -372,3 +343,40 @@ button{
   
   
 }  
+@media screen and (max-width:640px) {
+  .navbar{
+    width: 105%;
+  }
+  #Contact {
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    
+  }
+  #Portfolio{
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+      }
+  #About{
+    width:33.3%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    
+  }
+  .logo{
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+
+  margin: 0 0 0 0;
+  width: 100%;    
+  font-size: 1.86em;
+  text-align: center;
+  display: inline-block;
+  }
+}
