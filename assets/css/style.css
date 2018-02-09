@@ -129,7 +129,7 @@ a:hover{
    color:#ffffff;
    background-color:#4aaaa5;
    padding: 1% 3%;
-   margin: 50px 0; 
+   margin: 20px 0; 
 
    }
    .AboutMeText{
@@ -183,7 +183,7 @@ a:hover{
   .contain-connect {
     position: relative;
   
-    width: 21%;
+    width: 33%;
     float:right;
     padding: 15px;
     line-height: 1.5em;
