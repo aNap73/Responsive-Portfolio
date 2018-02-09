@@ -14,16 +14,19 @@ body {
   background-position: center;
 }
 .footer {
+  font-size: 1em;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  height: 20px; /* Set the fixed height of the footer here */
+  line-height: 10px; /* Vertically center the text there */
   background-color: grey;
   border-top: #4aaaa5 solid 10px;
   text-align: center;
-  margin: 0 auto;
-}
+  margin: 10px auto 0 auto;
+  padding-top: 1%;
+}  
+
 
 
 
@@ -88,8 +91,8 @@ a:hover{
   line-height: 1.5em;
   background-color: #ffffff;
   padding: 20px;
-  margin: 0;
-  margin-top: 20px;
+  margin: 10px 0; 
+  /*margin-top: 20px;*/
   margin-left:5%;
 }
   
@@ -102,9 +105,9 @@ a:hover{
     background-color: #ffffff;    
     text-align: center;    
         
-    padding: 27px 20px 20px 20px;
-    margin: 0;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    
     margin-right:5%;
   }
 
@@ -127,14 +130,7 @@ a:hover{
 
 
   
-  .foot{
-   
-    background-color: grey;
-    text-align: center;
-    padding:1.8%;
-    
-    border-top: #4aaaa5 solid 10px;
-  }
+
  .headshot{
    float:left;
    margin: 8px;
