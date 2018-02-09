@@ -100,10 +100,7 @@ a:hover{
   margin-right:8%;
 
 }
-.navbar {
-  border-bottom: grey solid 1px;
-  background-color: #fff;
-}
+
 .AboutMe{
   padding-top:20px;
   border-top: grey solid 1px;
@@ -117,11 +114,7 @@ a:hover{
   border-top: grey solid 1px;
 }
 
-.navbar::after {  
-    content:"";
-    display: block;
-    clear:both;
-  }
+
 
   
   .foot{
@@ -179,6 +172,15 @@ a:hover{
     padding-bottom: 20px;
     font-size: 1.86em;
   }
+  .navbar {
+    border-bottom: grey solid 1px;
+    background-color: #fff;
+  }
+  .navbar::after {  
+      content:"";
+      display: block;
+      clear:both;
+    }
   .main-content {
     width: 38%;
     margin-left:10%;
@@ -241,20 +243,25 @@ a:hover{
   width:13%;
   padding-left: 0;
   padding-right: 0;
-  margin: 0 8% 0 0;
+  margin: 0 7% 0 0;
 }
 }
 @media screen and (max-width:768px) {
- .logo{
+  .navbar{
+    width: 80%;
+  }
+  .logo{
   position: relative;
-  left: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 0 0 0;
+  width: 80%;  
   
-  margin-left:0px;  
-  padding-bottom: 20px;
   font-size: 1.86em;
   display: inline-block;
   
 }
+
   .main-content {
     Width: 83%;
     margin-left:3%;
