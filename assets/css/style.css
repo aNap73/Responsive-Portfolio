@@ -275,7 +275,12 @@ button{
   .navbar{
     width: 105%;
   }
-  .main-content {
+  .logo{
+    position: relative;
+    left: -20px;  
+  }
+
+   .main-content {
     Width: 86%;
     margin-left:3%;
     
@@ -342,6 +347,10 @@ button{
 @media screen and (max-width:640px) {
   .navbar{
     width: 105%;
+  }
+  .logo{
+    position: relative;
+    left: 0;  
   }
   #Contact {
     width:33.3%;
